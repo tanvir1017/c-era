@@ -18,6 +18,11 @@ int main(){
     // printf("Here's $%i.\n", dollar);
 
 
+    /**
+     * Long int will take more bite than `int`
+     * But it will be overflowing the int some times
+     */
+
     /*----------------------------------------------------- Long int -----------------------------------------------------  */
     long dollar = 1;
     while (true){
